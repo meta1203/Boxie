@@ -9,5 +9,5 @@ public interface World {
 	public Populator getPopulators();
 	public Random getSeed();
 	public List<Chunk> getLoadedChunks();
-	public Block getBlock(int x, int y, int z);
+	public short getBlockId(int x, int y, int z);
 }
